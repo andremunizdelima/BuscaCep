@@ -1,0 +1,10 @@
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\bin\Debug\netcoreapp3.1\Infra.deps.json
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\bin\Debug\netcoreapp3.1\Infra.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\bin\Debug\netcoreapp3.1\Infra.pdb
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\obj\Debug\netcoreapp3.1\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\obj\Debug\netcoreapp3.1\Infra.dll
+C:\Users\andre\OneDrive\Documentos\Projetos\BuscaCep\BuscaCep\Infra\obj\Debug\netcoreapp3.1\Infra.pdb

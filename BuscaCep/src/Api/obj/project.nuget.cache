@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xEZ88PjbOOEFNS/hzURQwAScdjaQAJ7PJKiw0ipUHTtXWGc3hd0vthFHRxVsVcabp0yVYgCUL8nJJZe3/3lTSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projetos\\BuscaCep\\BuscaCep\\src\\Api\\Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
