@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 using Infra.Client;
 using Domain.Client;
 using Application.Service;
 using Application.Interface;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace CrossCutting.DI
 {
@@ -17,7 +17,8 @@ namespace CrossCutting.DI
             #endregion 
 
             #region CLIENT
-            services.AddHttpClient<ICepClient, CepClient>();
+            services.AddSingleton<ICepClient, CepClient>();
+            services.AddHttpClient();
             #endregion
 
             return services;

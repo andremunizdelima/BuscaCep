@@ -5,11 +5,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 using CrossCutting.DI;
-using Domain.Client;
-using Application.Interface;
-using Infra.Client;
-using Application.Service;
-using System.Net.Http;
 
 namespace Api
 {

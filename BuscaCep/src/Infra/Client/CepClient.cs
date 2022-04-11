@@ -10,14 +10,18 @@ namespace Infra.Client
 {
     public class CepClient : ICepClient
     {
-        private IHttpClientFactory _httpClient;
+        private IHttpClientFactory _httpClient { get; }
 
-        public CepClient(IHttpClientFactory httpClient) { _httpClient = httpClient; }
+        public CepClient(IHttpClientFactory httpClient)
+        {
+            _httpClient = httpClient;
+        }
 
         public async Task<Cep> GetCepClient(string cep)
         {
             try
             {
+                Cep endereco = null;
                 string url = $"https://viacep.com.br/ws/{cep}/json/";
                 var request = new HttpRequestMessage(HttpMethod.Get, url);
                 var client = _httpClient.CreateClient();
@@ -26,12 +30,14 @@ namespace Infra.Client
                 if (response.IsSuccessStatusCode)
                 {
                     using var stream = await response.Content.ReadAsStreamAsync();
-                    return await JsonSerializer.DeserializeAsync<Cep>(stream);
+                    endereco = await JsonSerializer.DeserializeAsync<Cep>(stream);
                 }
-                else
+                else if (response.Content.ReadAsStringAsync().Result.Contains("true"))
                 {
-                    throw new Exception(response.Content.ReadAsStringAsync().Result);
+                    throw new Exception($"CEP {cep} inválido ou não existe");
                 }
+
+                return endereco;
             }
             catch (Exception e)
             {

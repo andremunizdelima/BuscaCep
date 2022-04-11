@@ -13,3 +13,7 @@
 /BuscaCep/Domain/bin/Debug/netcoreapp3.1
 /BuscaCep/Infra/bin/Debug/netcoreapp3.1
 /BuscaCep/src/Api/bin/Debug/netcoreapp3.1
+/BuscaCep/src/Api/obj/Debug/netcoreapp3.1/staticwebassets
+/BuscaCep/src/Application/bin/Debug/netcoreapp3.1
+/BuscaCep/src/CrossCutting/bin/Debug/netcoreapp3.1
+/BuscaCep/src/Domain/bin/Debug/netcoreapp3.1
