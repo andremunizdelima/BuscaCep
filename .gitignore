@@ -3,3 +3,12 @@
 ################################################################################
 
 /BuscaCep/API/obj
+/BuscaCep/Application/obj
+/BuscaCep/.vs/BuscaCep/v16
+/BuscaCep/CrossCutting/obj
+/BuscaCep/Domain/obj
+/BuscaCep/Infra/obj
+/BuscaCep/Application/bin/Debug/netcoreapp3.1
+/BuscaCep/CrossCutting/bin/Debug/netcoreapp3.1
+/BuscaCep/Domain/bin/Debug/netcoreapp3.1
+/BuscaCep/Infra/bin/Debug/netcoreapp3.1
